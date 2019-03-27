@@ -78,4 +78,14 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/fangwayne/hexo.git
+  branch: run-page
+
+# Netlify
+## Docs: https://github.com/JiangTJ/hexo-netlify-cms
+netlify_cms:
+  backend:
+    name: git-gateway
+    branch: run-page
+
