@@ -8,7 +8,8 @@ categories:
 comments: true
 ---
 # 图床设置
-
+----
+### parameters form
 | 图床名称 | url_addres | platform |
 | ---- | ---- | ---- |
 | github | fangwayne/pic | github |
